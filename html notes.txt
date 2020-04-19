@@ -1,0 +1,25 @@
+< : &lt;
+> : &gt;
+& : &amp;
+copy right : &copy;
+	     &nbsp;
+	     &quot;
+- <a>link
+- <p> paragraph
+- <img> image
+- <div> container
+- <ul> unorderd list
+  <li></li> every element is <li>
+  </ul>
+- <ol> unorderd list
+  <li></li> every element is <li>
+  </ol>
+-----------------------------------
+- <tag> : hover{
+ 
+}
+-------------------------------
+- background-image: url("");
+-------------------------------------
+- By default, ALL HTML elements,except one: the 'html' element. have their position property set to static
+- Settings position: relative; on an element takes it out of regular document flow. (false)
