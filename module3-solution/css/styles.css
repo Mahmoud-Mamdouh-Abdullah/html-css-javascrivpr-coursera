@@ -63,12 +63,17 @@ body {
 /*End Header*/
 
 /*main-content*/
+.main-content {
 
+}
 #Chicken , #Beef , #Sushi {
   margin: 20px 0 20px 0;
   background-color: #AA2E42;
   border: 3px solid #000;
   color: black;
+  overflow: auto;
+  width: 100%;
+  height: 1000px;
 }
 #Chicken h2, #Beef h2, #Sushi h2 {
   font-weight: bold;
