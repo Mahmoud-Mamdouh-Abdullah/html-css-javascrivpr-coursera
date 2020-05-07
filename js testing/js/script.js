@@ -1,10 +1,5 @@
-function Dog(name) {
-  this.name = name;
-}
+console.log(document.getElementById("name").value 
+            + " Coursera!");
 
-Dog.prototype.bark = function () {
-  console.log(this.name + " likes barking! Bark!");
-}
-
-var max = new Dog("Max", "Buddy");
-max.bark();
+console.log(document.querySelector("#name").value 
+            + " Coursera!");
